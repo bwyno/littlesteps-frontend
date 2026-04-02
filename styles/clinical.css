@@ -1,0 +1,40 @@
+/* Clinic theme extras — keep token tweaks here if you outgrow globals.css */
+
+.clinical-page-title {
+  @apply font-heading text-2xl font-semibold tracking-tight text-foreground;
+}
+
+.clinical-section {
+  @apply space-y-4;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  /* Make printed pages clean and compact */
+  body {
+    background: #ffffff !important;
+  }
+
+  .print-container {
+    padding: 0 !important;
+  }
+
+  .print-page-break {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .print-goal-item {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* Printed output should be calm: no shadows/animations */
+  * {
+    box-shadow: none !important;
+    transition: none !important;
+  }
+}

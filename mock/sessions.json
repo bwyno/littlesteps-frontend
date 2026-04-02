@@ -1,0 +1,34 @@
+[
+  {
+    "id": "s1",
+    "child_id": "1",
+    "date": "2026-01-14",
+    "duration_minutes": 45,
+    "notes": "Strong engagement with bead threading; practiced pincer with medium resistance.",
+    "goals_addressed": ["g1", "g2"]
+  },
+  {
+    "id": "s2",
+    "child_id": "1",
+    "date": "2026-01-10",
+    "duration_minutes": 50,
+    "notes": "Used visual schedule for transitions; 2 successful transitions without support.",
+    "goals_addressed": ["g2"]
+  },
+  {
+    "id": "s3",
+    "child_id": "2",
+    "date": "2026-01-12",
+    "duration_minutes": 40,
+    "notes": "Balance beam with hand-hold; progressed to minimal assist.",
+    "goals_addressed": ["g3"]
+  },
+  {
+    "id": "s4",
+    "child_id": "3",
+    "date": "2026-01-11",
+    "duration_minutes": 55,
+    "notes": "Copied square and triangle with 80% accuracy.",
+    "goals_addressed": ["g4"]
+  }
+]

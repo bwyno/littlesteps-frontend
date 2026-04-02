@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "John",
+    "age": 6,
+    "diagnosis": ["Autism Spectrum Disorder"]
+  },
+  {
+    "id": "2",
+    "name": "Emma",
+    "age": 5,
+    "diagnosis": ["Developmental Delay"]
+  },
+  {
+    "id": "3",
+    "name": "Maya",
+    "age": 7,
+    "diagnosis": ["Sensory Processing Disorder", "ADHD"]
+  }
+]

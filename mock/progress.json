@@ -1,0 +1,23 @@
+[
+  { "goal_id": "g1", "date": "2025-10-01", "value": 30 },
+  { "goal_id": "g1", "date": "2025-10-15", "value": 42 },
+  { "goal_id": "g1", "date": "2025-11-01", "value": 48 },
+  { "goal_id": "g1", "date": "2025-11-15", "value": 55 },
+  { "goal_id": "g1", "date": "2025-12-01", "value": 62 },
+  { "goal_id": "g1", "date": "2026-01-10", "value": 68 },
+
+  { "goal_id": "g2", "date": "2025-10-05", "value": 40 },
+  { "goal_id": "g2", "date": "2025-10-20", "value": 52 },
+  { "goal_id": "g2", "date": "2025-11-10", "value": 58 },
+  { "goal_id": "g2", "date": "2025-12-05", "value": 64 },
+  { "goal_id": "g2", "date": "2026-01-12", "value": 71 },
+
+  { "goal_id": "g3", "date": "2025-10-08", "value": 22 },
+  { "goal_id": "g3", "date": "2025-11-02", "value": 34 },
+  { "goal_id": "g3", "date": "2025-12-12", "value": 45 },
+  { "goal_id": "g3", "date": "2026-01-08", "value": 52 },
+
+  { "goal_id": "g4", "date": "2025-10-12", "value": 32 },
+  { "goal_id": "g4", "date": "2025-11-18", "value": 44 },
+  { "goal_id": "g4", "date": "2026-01-05", "value": 51 }
+]
