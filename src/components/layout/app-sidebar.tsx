@@ -132,7 +132,7 @@ export function AppSidebar({
 
         {/* Desktop: collapse toggle (expanded state only) */}
         {!collapsed && (
-          <div className={cn("hidden flex items-center justify-center ")}>
+          <div className="hidden md:flex items-center justify-center">
             <button
               type="button"
               className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-sidebar-border bg-background/40 text-foreground/70 transition-colors hover:bg-sidebar-accent hover:text-foreground"

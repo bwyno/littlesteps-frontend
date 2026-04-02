@@ -25,10 +25,16 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
       <AppSidebar
         collapsed={sidebarCollapsed}
         mobileOpen={mobileSidebarOpen}
+        onCollapsedChange={setSidebarCollapsed}
         onNavigate={() => setMobileSidebarOpen(false)}
       />
 
-      <div className="min-h-screen md:pl-60">
+      <div
+        className={cn(
+          "min-h-screen transition-[padding] duration-200 ease-out motion-reduce:transition-none",
+          sidebarCollapsed ? "md:pl-16" : "md:pl-60"
+        )}
+      >
         <header className="no-print sticky top-0 z-20 border-b border-border/80 bg-background/90 px-4 py-3 backdrop-blur supports-[backdrop-filter]:bg-background/75 md:px-8 print:hidden">
           <div className="mx-auto flex max-w-6xl items-center justify-between gap-4">
             <div className="flex min-w-0 items-start gap-3">
